@@ -25,5 +25,3 @@ public class Boletin2_3 {
     }
     
 }
-    
-}
