@@ -17,9 +17,7 @@ public class Boletin2_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        float base ;
-        float altura ;
-        float area ;
+        float base, altura, area;
         base = Float.parseFloat(JOptionPane.showInputDialog("base "));
         altura = Float.parseFloat(JOptionPane.showInputDialog("altura "));
         area = base*altura/2;
