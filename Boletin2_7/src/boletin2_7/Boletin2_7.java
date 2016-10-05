@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author jquesadaabeijon
+ * @author JesusQuesada
  */
 public class Boletin2_7 {
 
