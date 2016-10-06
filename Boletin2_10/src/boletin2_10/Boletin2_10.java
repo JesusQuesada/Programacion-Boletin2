@@ -17,8 +17,8 @@ public class Boletin2_10 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double billete100, billete20, billete5, moneda1, euros;
-        euros = Float.parseFloat(JOptionPane.showInputDialog("Total euros "));
+        int billete100, billete20, billete5, moneda1, euros;
+        euros = Integer.parseInt(JOptionPane.showInputDialog("Total euros "));
         billete100 = euros/100;
         billete20 = euros/20;
         billete5 = euros/5;
