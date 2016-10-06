@@ -17,7 +17,8 @@ public class Boletin2_9 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        long billete100, billete20, billete5, moneda1, euros;
+        long billete100, billete20, billete5, moneda1;
+        double euros;
         billete100 = Long.parseLong(JOptionPane.showInputDialog("Billetes de 100 euros "));
         billete20 = Long.parseLong(JOptionPane.showInputDialog("Billetes de 20 euros "));
         billete5 = Long.parseLong(JOptionPane.showInputDialog("Billetes de 5 euros "));
