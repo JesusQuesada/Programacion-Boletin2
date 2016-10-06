@@ -20,9 +20,9 @@ public class Boletin2_10 {
         int billete100, billete20, billete5, moneda1, euros;
         euros = Integer.parseInt(JOptionPane.showInputDialog("Total euros "));
         billete100 = euros/100;
-        billete20 = euros/20;
-        billete5 = euros/5;
-        moneda1 = euros;
+        billete20 = billete100/20;
+        billete5 = billete20/5;
+        moneda1 = billete5;
         JOptionPane.showMessageDialog(null, "Billetes de 100 ="+billete100+"\nBilletes de 20 ="+billete20+"\nBilletes de 5 ="+billete5+"\nMonedas de 1 ="+moneda1);
     }
     
